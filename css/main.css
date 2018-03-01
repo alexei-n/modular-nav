@@ -39,3 +39,7 @@ ul {
 .nav a:hover {
   background-color: #0074d9;
 }
+
+.nav .current {
+  background-color: #0074d9;
+}
