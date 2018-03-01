@@ -33,12 +33,12 @@ ul {
 nav a {
   border-radius: 1px;
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 
 nav a:hover {
   background-color: #0074d9;
-  color: white;
+  color: #fff;
 }
 
 nav .current {
