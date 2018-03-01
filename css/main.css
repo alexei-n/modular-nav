@@ -16,3 +16,24 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: none;
+}
+
+.header {
+  background-color: #e2e2e2;
+}
+
+.nav a {
+  background-color: #e2e2e2;
+  border-radius: 1px;
+  text-decoration: none;
+  padding: .5em;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: #0074d9;
+
+}
