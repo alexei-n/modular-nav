@@ -29,16 +29,16 @@ ul {
   background-color: #e2e2e2;
 }
 
-.nav a {
+nav a {
   border-radius: 1px;
   text-decoration: none;
   color: white;
 }
 
-.nav a:hover {
+nav a:hover {
   background-color: #0074d9;
 }
 
-.nav .current {
+nav .current {
   background-color: #0074d9;
 }
