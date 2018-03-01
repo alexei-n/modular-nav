@@ -29,6 +29,10 @@ ul {
   background-color: #e2e2e2;
 }
 
+nav {
+  text-align: right;
+}
+
 nav a {
   border-radius: 1px;
   text-decoration: none;
@@ -37,8 +41,13 @@ nav a {
 
 nav a:hover {
   background-color: #0074d9;
+  color: white;
 }
 
 nav .current {
   background-color: #0074d9;
+}
+
+nav :not(.current) {
+  color: #0074d9;
 }
