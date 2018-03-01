@@ -27,10 +27,7 @@ ul {
 
 .header {
   background-color: #e2e2e2;
-}
-
-nav {
-  text-align: right;
+  text-align: center;
 }
 
 nav a {
@@ -50,4 +47,19 @@ nav .current {
 
 nav :not(.current) {
   color: #0074d9;
+}
+
+li {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .header {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
 }
